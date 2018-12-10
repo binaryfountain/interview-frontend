@@ -42,11 +42,3 @@ The API route for all baths is `http://localhost:8001/baths`.  The response is:
   { id: 5, name: '5 baths' }
 ]
 ```
-
-The API route for all users is `http://localhost:8001/user`.  You can request a single user object by appending the id to the previous URL like so: `http://localhost:8001/user/1`.  The data shape for a user is:
-```
-{
-  "id": 1,
-  "roles": [1]
-}
-```
